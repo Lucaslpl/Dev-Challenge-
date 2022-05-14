@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: block;
+}
+
+:root {
+  --orange: #d2872c;
+  --gray: #766f68;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1220px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*navegation*/
+nav h1 {
+  color: var(--orange);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+}
+
+li a {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.2s ease-in;
+}
+
+li a:hover {
+  color: var(--orange);
+}
+
+/*header-main*/
+
+.contentHeader {
+  background-image: url(../assets/team_img_use_challenger223.jpg);
+  background-repeat: no-repeat;
+  height: 662px;
+  background-position: 430px;
+  background-size: 798px;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+  align-items: unset;
+  flex-direction: column;
+}
+
+h2 {
+  color: var(--gray);
+  margin-top: 46px;
+  padding: 20px 52px;
+  line-height: 1.3em;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+p {
+  color: var(--gray);
+  font-size: 29px;
+  margin: 10px 29px;
+  padding: 10px 31px;
+  font-weight: 400;
+}
+
+.startNow {
+  color: #fff;
+  background-color: var(--orange);
+  width: 180px;
+  /* height: 50px; */
+  margin: 55px 95px;
+  padding: 8px 25px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+  border: none;
+  border-radius: 40px 10px;
+  transition: color 0.2s ease-in;
+}
+
+.startNow:hover {
+  color: var(--orange);
+  background: var(--gray);
+}
